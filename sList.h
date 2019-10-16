@@ -2,7 +2,7 @@
 - Name: Abdullah Banawas
 - Class: CS441 Software Engineer
 - Group Project ( Cocktails Recipes )
-	- Shopping List Class header file 
+    - Shopping List Class header file
 - Date: October 15, 2019
 */
 #pragma once
@@ -28,5 +28,6 @@ public:
     ~sList(); // deconstructure
     void addIngredient(Ingredient); // add ingredient to shopping list
     void removeIngredient(Ingredient);
+    string getName(Ingredient); // return name of ingredient
     void display(); // display all ingredient with the total price
 };
