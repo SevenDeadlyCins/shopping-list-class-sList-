@@ -36,7 +36,7 @@ void sList::display() {
 	double totalCost = 0; // add up the costs of all ingredients
 	for (int i = 0; i < list.size(); i++) // for loop goes through vectore and print the info
 	{
-		cout << list[i].name << "  " << list[i].cost; // display ingredient name + cost
+		cout << list[i].name << "  " << list[i].cost << endl; // display ingredient name + cost
 		totalCost += list[i].cost; // add cost of each ingredient to totalCost
 	}
 	cout << "\nThe total cost of the igredients: $" << totalCost;
