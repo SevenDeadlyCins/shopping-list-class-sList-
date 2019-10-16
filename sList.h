@@ -1,10 +1,15 @@
+/*
+- Name: Abdullah Banawas
+- Class: CS441 Software Engineer
+- Group Project ( Cocktails Recipes )
+	- Shopping List Class header file 
+- Date: October 15, 2019
+*/
 #pragma once
 #include <iostream>
 #include <vector>
 #include "Ingredient.h"
-
 using namespace std;
-
 
 /*
 The user can search for ingredients that are not in their virtual cabinet and add it to a virtual shopping list. This\
@@ -12,7 +17,6 @@ The user can search for ingredients that are not in their virtual cabinet and ad
 tton by the user, all of the ingredients in the shopping list will be added to their virtual cabinet. With these adde\
 d ingredients, the user can create more cocktails.
 */
-
 
 class sList {
 
@@ -24,8 +28,5 @@ public:
     ~sList(); // deconstructure
     void addIngredient(Ingredient); // add ingredient to shopping list
     void removeIngredient(Ingredient);
-    //void getItem(Ingredient); // get an indredient from shopping list
-    //void Price(Ingredient); // display the price of all items
     void display(); // display all ingredient with the total price
-
 };
