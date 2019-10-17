@@ -6,6 +6,8 @@
 - Date: October 15, 2019
 */
 #pragma once
+#ifndef SLIST_H_
+#define SLIST_H_
 #include <iostream>
 #include <vector>
 #include "Ingredient.h"
@@ -31,3 +33,5 @@ public:
     string getName(Ingredient); // return name of ingredient
     void display(); // display all ingredient with the total price
 };
+#endif
+
