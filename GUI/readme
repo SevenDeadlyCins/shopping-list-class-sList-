@@ -6,4 +6,4 @@ Abdullah Banawas>
   11-18-2019 [UPDATE] Duble clicking on ingredient will add the ingredient to the shopping list now.
   11-19-2019 [UPDATE] Type an ingredient name and click to add button to add ingredient to inredient list.
   11-20-2019 [UPDATE] Ingredients now are added to the ingredient list through readFile.
-  
+  11-24-2019 [UPDATE] readFile can now be opened in all platforms (It was only working on windows)
